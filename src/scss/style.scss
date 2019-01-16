@@ -1,15 +1,11 @@
 body {
-    background: #83a4d4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 50px;
     color: #333;
     text-align: justify;
     font-family: monospace;
-
-    h5 {
-        font-style: italic;
-    }
 }
 
 .cointainer {
@@ -26,11 +22,11 @@ body {
     }
 
     &--fluid {
-        width:100%;
+        width: 100%;
         padding-right: 10px;
         padding-left: 10px;
-        margin-right: 0px;
-        margin-left: 0px;
+        margin-right: 0;
+        margin-left: 0;
     }
 }
 
@@ -52,4 +48,8 @@ body {
         background: #2196F3;
         color: white;
     }
+}
+
+.italic {
+    font-style: italic;
 }
